@@ -16,7 +16,7 @@ public class TestSelenium01 {
 
 
     @Test
-    public void test_OpenTheTestingAcademy(){
+    public void test_OpenTheGoogleCom(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
 
