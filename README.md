@@ -1,7 +1,7 @@
 # Selenium 4.35.0 Learning & Implementation 🚀
 
 This repository documents my **hands-on learning journey with Selenium 4.x Web Automation**.
-I’ll be implementing each concept from
+I’ll be implementing each concept
 
 ---
 
@@ -97,7 +97,7 @@ LearningSeleniumATB13x/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/Mayankpaliwal09/LearingSeleniumATB13x.git
+git clone https://github.com/Mayankpaliwal09/LearningSeleniumATB13x.git
 cd LearningSeleniumATB13x
 ```
 
