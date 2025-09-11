@@ -1,4 +1,4 @@
-package com.mayankPaliwal.ex02_Slenium_basics;
+package com.mayankPaliwal.ex02_Selenium_basics;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
@@ -25,5 +25,7 @@ public class TestSelenium12_Navigations {
         driver.navigate().to("https://stackoverflow.com");
          driver.navigate().forward();
 
+
+         driver.quit();
     }
 }

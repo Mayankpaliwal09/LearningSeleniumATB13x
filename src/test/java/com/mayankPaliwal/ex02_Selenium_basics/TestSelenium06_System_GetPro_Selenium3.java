@@ -1,4 +1,4 @@
-package com.mayankPaliwal.ex02_Slenium_basics;
+package com.mayankPaliwal.ex02_Selenium_basics;
 
 public class TestSelenium06_System_GetPro_Selenium3 {
 

@@ -1,14 +1,8 @@
-package com.mayankPaliwal.ex02_Slenium_basics;
+package com.mayankPaliwal.ex02_Selenium_basics;
 
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-
-import java.sql.Driver;
 
 public class TestSelenium04 {
     public static void main(String[] args) {
@@ -58,6 +52,7 @@ public class TestSelenium04 {
         // 3. Do you want to run on multiple browsers, aws machine? 2%
         // RemoteWebDriver driver (with GRID) - Advance (Last 2 Sessions)
 
+        driver.quit();
 
 
     }

@@ -21,6 +21,7 @@ public class TestSelenium01 {
         driver.get("https://www.google.com");
 
         driver.close();
+        driver.quit();
 
     }
 }

@@ -1,4 +1,4 @@
-package com.mayankPaliwal.ex02_Slenium_basics;
+package com.mayankPaliwal.ex02_Selenium_basics;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 

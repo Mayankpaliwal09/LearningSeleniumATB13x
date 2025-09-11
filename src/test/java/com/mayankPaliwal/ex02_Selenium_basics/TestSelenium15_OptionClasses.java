@@ -1,4 +1,4 @@
-package com.mayankPaliwal.ex02_Slenium_basics;
+package com.mayankPaliwal.ex02_Selenium_basics;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -34,7 +34,7 @@ public class TestSelenium15_OptionClasses  {
         System.out.println(driver.getTitle());
 
 
-//        driver.quit();
+        driver.quit();
 
     }
 }

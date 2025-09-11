@@ -1,8 +1,6 @@
-package com.mayankPaliwal.ex02_Slenium_basics;
+package com.mayankPaliwal.ex02_Selenium_basics;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.Test;
 
 public class TestSelenium03 {
@@ -20,6 +18,7 @@ public class TestSelenium03 {
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://google.com");
 
+        driver.quit();
 
 //
 //        InternetExplorerDriver ie = new InternetExplorerDriver();
