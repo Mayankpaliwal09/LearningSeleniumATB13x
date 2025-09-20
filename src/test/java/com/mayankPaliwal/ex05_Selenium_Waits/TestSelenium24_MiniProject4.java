@@ -16,6 +16,8 @@ public class TestSelenium24_MiniProject4 extends WaitHelpers {
     @Test
     public void testClosemodal(){
 
+        // 3rd september
+
         WebDriver driver = new ChromeDriver();
     driver.navigate().to("https://www.makemytrip.com/");
 //        openBrowser("https://www.makemytrip.com/","chrome");

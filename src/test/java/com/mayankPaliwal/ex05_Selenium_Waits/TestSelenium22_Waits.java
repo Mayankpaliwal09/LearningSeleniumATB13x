@@ -9,6 +9,8 @@ public class TestSelenium22_Waits {
 
     public static void main(String[] args) {
 
+        // 3rd september
+
         // IMplicit wait
 
 

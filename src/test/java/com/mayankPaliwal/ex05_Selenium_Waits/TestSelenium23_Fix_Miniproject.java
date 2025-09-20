@@ -34,6 +34,8 @@ public class TestSelenium23_Fix_Miniproject extends CommonToAll {
     @Test
     public void test_vwo_inalid_login(){
 
+        // 3rd september
+
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");
 
