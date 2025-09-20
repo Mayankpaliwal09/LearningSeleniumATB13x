@@ -1,4 +1,4 @@
-package com.mayankPaliwal.Tasks.Task_29_aug;
+package com.mayankPaliwal.Tasks.Task_3_sep;
 
 import com.mayankPaliwal.ex07_WaitHelper.WaitHelpers;
 import io.qameta.allure.Description;
