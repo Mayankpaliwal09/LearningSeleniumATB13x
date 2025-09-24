@@ -20,19 +20,19 @@ public class TestSelenium19_Mini_Project2_TagName extends CommonToAll {
     @Test
     public void vwo_free_trial_error_verify() {
 
-//        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 //        driver.manage().window().maximize();
 //        driver.get("https://app.vwo.com");
 
 
-        openBrowser("https://app.vwo.com" , "chrome" );
+        openBrowser(driver,"https://app.vwo.com" );
 
 //        WebElement partial_text_satrt_free_trial = driver.findElement(By.partialLinkText("free"));
 //        partial_text_satrt_free_trial.click();
 
 
 
-         WebElement partialText =   partialText("free");
+         WebElement partialText =   partialText(driver,"free");
 
         System.out.println(driver.getCurrentUrl());
         Assert.assertTrue(driver.getCurrentUrl().contains("free-trial"));

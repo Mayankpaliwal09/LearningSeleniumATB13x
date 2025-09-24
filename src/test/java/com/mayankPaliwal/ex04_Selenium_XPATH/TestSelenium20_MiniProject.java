@@ -30,7 +30,8 @@ public class TestSelenium20_MiniProject extends WaitHelpers {
 
         // 3rd september
 
-        openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", "chrome");
+        WebDriver driver = new ChromeDriver();
+        openBrowser(driver ,"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 //        WebDriver driver = new ChromeDriver();
 //        driver.manage().window().maximize();
 //

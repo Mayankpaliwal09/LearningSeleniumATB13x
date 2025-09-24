@@ -8,7 +8,9 @@ import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -24,7 +26,8 @@ public class TestSelenium21_MiniProject_3 extends WaitHelpers {
     @Test
     public void test_katalon_Login(){
 
-        openBrowser("https://katalon-demo-cura.herokuapp.com/", "chrome");
+        WebDriver driver = new ChromeDriver();
+        openBrowser(driver,"https://katalon-demo-cura.herokuapp.com/");
 
         WebElement make_appointment_btn_xpath  = driver.findElement(By.xpath("//a[@id='btn-make-appointment']"));
         make_appointment_btn_xpath.click();
