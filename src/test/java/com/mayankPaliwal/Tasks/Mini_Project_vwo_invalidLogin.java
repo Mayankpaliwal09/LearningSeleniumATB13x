@@ -1,4 +1,4 @@
-package com.mayankPaliwal.Tasks.Task_28_aug.Task_app;
+package com.mayankPaliwal.Tasks;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class vwo {
+public class Mini_Project_vwo_invalidLogin {
 
     @Description("TC#1 Verifying the invalid email message")
     @Owner("Mayank Paliwal")

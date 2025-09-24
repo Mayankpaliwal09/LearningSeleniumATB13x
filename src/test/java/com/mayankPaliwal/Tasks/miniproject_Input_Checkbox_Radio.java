@@ -1,6 +1,6 @@
-package com.mayankPaliwal.Tasks.Task_3_sep;
+package com.mayankPaliwal.Tasks;
 
-import com.mayankPaliwal.ex07_WaitHelper.WaitHelpers;
+import com.mayankPaliwal.utils.CommonToAll;
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class awesomeQA_practice_form_task extends WaitHelpers {
-
+public class miniproject_Input_Checkbox_Radio extends CommonToAll {
 
     @Description(" Fill The details of awesomeQA and verify")
     @Test

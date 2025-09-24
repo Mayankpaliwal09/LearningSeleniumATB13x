@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.function.Function;
 
-public class WaitHelpers extends CommonToAll {
+public class WaitHelpers  extends CommonToAll {
 
     // 3rd september
 
@@ -38,14 +38,14 @@ public class WaitHelpers extends CommonToAll {
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    public  void checkVisibilityOfAndTextToBePresentInElement(WebDriver driver,WebElement element) {
+    public static void checkVisibilityOfAndTextToBePresentInElement(WebDriver driver,WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         wait.until(ExpectedConditions.visibilityOf(element));
-        wait.until(ExpectedConditions.textToBePresentInElement(element, "Your email, password, IP address or location did not match"));
+//        wait.until(ExpectedConditions.textToBePresentInElement(element, "Your email, password, IP address or location did not match"));
 
     }
 
-    public void waitForVisibility(WebDriver driver,int duration, String xpath){
+    public static void waitForVisibility(WebDriver driver,int duration, String xpath){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(duration));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
 

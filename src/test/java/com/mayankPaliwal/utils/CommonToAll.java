@@ -6,18 +6,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import javax.print.attribute.standard.Finishings;
+import java.util.List;
+
 public class CommonToAll {
 
-        public WebDriver driver;
-        public void openBrowser( String url , String browser){
+//        public WebDriver driver;
+        public void openBrowser(WebDriver driver , String url ){
 
-            if(browser.equalsIgnoreCase("chrome")){
-                this.driver = new ChromeDriver();
-            } else if (browser.equalsIgnoreCase("firefox")){
-                this.driver = new FirefoxDriver();
-            } else {
-                driver = new ChromeDriver();
-            }
+//            if(browser.equalsIgnoreCase("chrome")){
+//                driver = new ChromeDriver();
+//            } else if (browser.equalsIgnoreCase("firefox")){
+//                driver = new FirefoxDriver();
+//            } else {
+//                driver = new ChromeDriver();
+//            }
 
             driver.get(url);
             driver.manage().window().maximize();
@@ -43,7 +46,7 @@ public class CommonToAll {
     }
 
 
-    public WebElement partialText(String partiallinkText) {
+    public WebElement partialText( WebDriver driver , String partiallinkText) {
 
        WebElement partialLink = driver.findElement(By.partialLinkText(partiallinkText));
         partialLink.click();
@@ -51,5 +54,28 @@ public class CommonToAll {
         return partialLink;
 
     }
+
+
+    public WebElement FindElementbyXpath(WebDriver driver, String xpath){
+
+            WebElement element = driver.findElement(By.xpath(xpath));
+
+        return element;
+    }
+
+    public WebElement FindElementbyId(WebDriver driver, String id){
+
+        WebElement element = driver.findElement(By.id(id));
+//        System.out.println(element.getText());
+        return element;
+    }
+
+
+    public List<WebElement> FindElementsbyId(WebDriver driver, String xpath){
+        List<WebElement> elements = driver.findElements(By.xpath(xpath));
+        return elements;
+    }
+
+
 
 }
