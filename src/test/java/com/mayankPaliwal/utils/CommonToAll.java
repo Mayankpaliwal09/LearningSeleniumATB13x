@@ -1,5 +1,6 @@
 package com.mayankPaliwal.utils;
 
+import com.mayankPaliwal.ex07_WaitHelper.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,9 +22,9 @@ public class CommonToAll {
 //            } else {
 //                driver = new ChromeDriver();
 //            }
-
-            driver.get(url);
             driver.manage().window().maximize();
+            driver.get(url);
+
         }
 
 
