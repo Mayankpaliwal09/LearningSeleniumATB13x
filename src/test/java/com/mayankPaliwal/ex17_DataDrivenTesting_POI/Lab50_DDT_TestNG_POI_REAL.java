@@ -17,6 +17,11 @@ public class Lab50_DDT_TestNG_POI_REAL extends CommonToAll {
    @Description("Negative testcase loginVWO Error check using Data driven by Excel file")
     public void test_loginVWO_invalid(String email , String Password){
 
+      //        // 1) Simple split (escape pipe)
+//        String[] parts1 = Password.split("\\|");
+//        System.out.println("parts1[0] = '" + parts1[0] + "'");
+//        System.out.println("parts1[1] = '" + parts1[1] + "'");
+
        WebDriver driver = new ChromeDriver();
        driver.manage().window().maximize();
        driver.get("https://app.vwo.com");
